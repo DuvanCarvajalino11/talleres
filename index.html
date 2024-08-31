@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <tr>
+            <td colspan="2" align="center">
+                Inscripciones
+            </td>
+        <tr>
+            <td>Nombre</td>
+            <td>
+                <input type="text" name="nombre">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Genero</td>
+            <td>
+                <select name="genero">
+                    <option value="femenino">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="otros">Otros</option>
+
+                </select>
+            </td>
+        </tr>
+        </tr>
+
+        <tr>
+            <td>Edad</td>
+            <td> <input type="number" name="edad"></td>
+        </tr>
+
+        <tr>
+            <td>Estado civil</td>
+            <td>
+                <table>
+                    <tr>
+                        <td>Soltero</td>
+                        <td>Casado</td>
+                        <td>Union libre</td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="radio" name="estado" value="soltero"></td>
+                        <td><input type="radio" name="estado" value="casado"></td>
+                        <td><input type="radio" name="estado" value="union libre"></td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <table>
+                    <tr>
+                        <td>Gustos musicales</td>
+                    </tr>
+                    <tr>
+                        <td>Vallenato</td>
+                        <td>Salsa</td>
+                        <td>Rock</td>
+                        <td>Pop</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" name="Vallenato" value="Vallenato"></td>
+                        <td><input type="checkbox" name="Salsa" value="Salsa"></td>
+                        <td><input type="checkbox" name="Rock" value="Rock"></td>
+                        <td><input type="checkbox" name="Pop" value="Pop"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="Guardar">
+            </td>
+        </tr>
+
+
+    </table>
+
+</body>
+
+</html>
