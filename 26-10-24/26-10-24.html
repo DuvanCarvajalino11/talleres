@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda con Componentes Web</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="d-flex flex-column" style="min-height: 50vh;">
+    <div class="container my-5"> 
+        
+        <div class="d-flex justify-content-between align-items-center border-bottom pb-2 mb-4">
+            <span class="text-primary"><fecha-hoy></fecha-hoy></span>
+            <span>Bienvenidos son las: <hora-actual></hora-actual></span>
+            <a href="https://www.chatgpt.com" class="text-primary" target="_blank">Ir a ChatGPT</a>
+        </div>
+
+       
+        <div class="mb-4">
+            <buscar-elprofebarrientos></buscar-elprofebarrientos>
+        </div>
+
+       
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://carulla.vtexassets.com/arquivos/ids/17338688/celular-iphone-13-128gb-azul.jpg?v=638608915135770000" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: Iphone 13</h5>
+                        <p class="card-text">Precio: $2.200.000</p>
+                        <ir-al-carrito></ir-al-carrito>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://carulla.vtexassets.com/arquivos/ids/9823540/celular-iphone-14-pro-max-128gb-5g-morado.jpg?v=638043821536600000" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: Iphone 14 PRO MAX</h5>
+                        <p class="card-text">Precio: $3.700.000</p>
+                        <ir-al-carrito></ir-al-carrito>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://carulla.vtexassets.com/arquivos/ids/12414489/celular-iphone-11-pro-reacondicionado-verde-media-noche-256-gb.jpg?v=638210812682900000" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Nombre: Iphone 11 PRO MAX</h5>
+                        <p class="card-text">Precio: $1.800.000</p>
+                        <ir-al-carrito></ir-al-carrito>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="bg-success text-white text-center p-3 mt-4">
+            <titulos-elprofebarrientos></titulos-elprofebarrientos>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
